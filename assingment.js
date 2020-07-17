@@ -26,6 +26,23 @@ function woodCalculator(chair, table, bed){
 var totalWood = woodCalculator();
 console.log("Total wood =", totalWood);
 
+// Assingment-3 brickCalculator..(incomplete)
+
+function brickcalculator(n){
+  var floor10 = n*15*1000;
+  var floor20 = n*12*1000;
+  var floorUp20= n*10*1000;
+  if(n <=10 ){
+   var totalBricks = floor10;
+    return floor10;
+  }
+  if (n>20){
+    return floorUp20;
+  }
+}
+var check = brickcalculator();
+console.log(check);
+
 // Assingment-4 tinyFriend
 function tinyFriend(name){
   var totalLength = Infinity;
