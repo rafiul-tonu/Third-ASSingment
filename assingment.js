@@ -28,7 +28,7 @@ console.log("Total wood =", totalWood);
 
 // Assingment-3 brickCalculator..(incomplete)
 
-function brickcalculator(n){
+function brickCalculator(n){
   var floor10 = n*15*1000;
   var floor20 = n*12*1000;
   var floorUp20= n*10*1000;
@@ -40,7 +40,7 @@ function brickcalculator(n){
     return floorUp20;
   }
 }
-var check = brickcalculator();
+var check = brickCalculator();
 console.log(check);
 
 // Assingment-4 tinyFriend
